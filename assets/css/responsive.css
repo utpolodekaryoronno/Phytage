@@ -1,0 +1,625 @@
+@media all and (max-width: 1366px){
+	.container{
+		padding: 0px 20px;
+	}
+	.banner_right_content> img {
+		max-width: 500px;
+	}
+	.banner_area {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.heading1 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.heading2 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	.heading3 {
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.heading4 {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.text_24 {
+		font-size: 20px;
+		line-height: 27px;
+	}
+
+	.ingredients_content .nav-tabs .nav-link {
+		padding: 14px 20px;
+	}
+	.tinnitus_area.pb{
+		padding-bottom: 40px;
+	}
+}
+
+@media all and (max-width: 1199px){
+	.pb{
+		padding-bottom: 80px;
+	}
+	.pt{
+		padding-top: 80px;
+	}
+	.section_title {
+		padding-top: 80px;
+	}
+	.header-nav nav ul li{
+		padding: 0 15px;
+	}
+	.banner_content {
+		gap: 50px;
+		flex-direction: column;
+	}
+	.banner_left_content {
+		text-align: center;
+	}
+	.bottle_area {
+		margin: auto;
+	}
+	.single_tinnitus_card span {
+		height: 90px;
+		width: 90px;
+	}
+	.single_tinnitus_card span img {
+		width: 45px;
+	}
+	.tinnitus_area.pb{
+		padding-bottom: 20px;
+	}
+	.ingredients_content .nav {
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+	.scientific_content {
+		gap: 40px 40px;
+	}
+	.Mission_area.pt{
+		padding-top: 40px;
+	}
+	.footer_copy_right {
+		margin-bottom: 0px;
+	}
+
+
+	/******************************** Pre-lander Page css  ********************************/
+	.symptoms_content {
+		gap: 36px 60px;
+	}
+	.symptoms_right ul {
+		gap: 25px;
+	}
+	.top_scientific {
+		gap: 0px;
+		flex-direction: column;
+	}
+
+
+	/******************************** Cart Page css  ********************************/
+	.Finish_oder_content {
+    	gap: 20px 50px;
+	}
+	.footer_content2 .footer_menu {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.mobile_logo{
+		display: inline-flex;
+	}
+	.desk_logo{
+		display: none;
+	}
+}
+
+@media all and (min-width: 992px){
+	.header-menu{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 991px){
+	/* Mobile menu ----------------------------*/
+	.header-button {
+		display: none;
+	}
+	.mobile-headerbtn{
+		display: block;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.header-nav nav{
+		position: absolute;
+		width: calc(100% + 40px);
+		top: 101%;
+		left: -20px;
+		background: #F2FAFF;
+		z-index: 1;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		padding:40px 0;
+		box-sizing: border-box;
+		text-align: center;
+		display: none;
+	}
+	.header-nav nav ul{
+		flex-direction: column;	
+	}
+	.header-nav nav ul li{
+		margin-bottom: 30px;
+	}
+
+	.header-main {
+		padding: 20px 0px;
+	}
+
+
+	/* Common style change */
+	.heading1 {
+		font-size: 42px;
+		line-height: 52px;
+	}
+	.heading2 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.text_24 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.text_18 {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+
+
+
+
+
+	.single_customer {
+		padding: 30px 30px;
+	}
+	.tinnitus_card_content {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.ingredients_content .nav-tabs .nav-link {
+		padding: 8px 20px;
+	}
+	.connmon_tab_content {
+		flex-direction: column;
+	}
+	.connmon_tab_left img {
+		width: 80%;
+	}
+
+
+	/* Footer Css */
+	.footer_menu {
+		padding: 60px 0px 35px 0px;
+	}
+	.Social_link a {
+		height: 48px;
+		width: 48px;
+	}
+	.footer_link {
+		gap: 24px;
+	}
+	.Social_link a i{
+		font-size: 14px;
+	}
+
+
+
+	/******************************** Pre-lander Page css  ********************************/
+	.symptoms_content {
+		gap: 36px 40px;
+	}
+	/* .top_scientific{
+		overflow-x: scroll;
+	}
+	.link_last_child{
+		overflow-x: scroll;
+	} */
+
+
+	/******************************** Cart Page css  ********************************/
+	.Finish_oder_content {
+    	flex-direction: column;
+	}
+	.rush_content span{
+		display: none;
+	}
+	.footer_content2 .footer_menu .footer_link img {
+		margin-right: 10px;
+	}
+}
+
+@media all and (max-width:767px){
+
+	.single_free span {
+		height: 60px;
+		width: 60px;
+	}
+	.banner_right_content> img {
+		max-width: 370px;
+	}
+	.free_icon_main {
+		gap: 15px;
+	}
+	.single_free .text_20 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.tinnitus_card_content {
+		gap: 15px;
+	}
+	.single_tinnitus_card {
+		padding: 30px 30px;
+	}
+	.connmon_tab_left {
+		text-align: center;
+	}
+	.connmon_tab_right {
+		text-align: center;
+	}
+	.scientific_content {
+		flex-direction: column;
+	}
+	.scientific_left {
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+
+	.cart_header{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.cart_header a img{
+		height: 48px;
+	}
+
+
+	/* Footer Css */
+	.footer_menu {
+		padding: 48px 0px 24px 0px;
+	}
+	.footer_menu{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.footer_description{
+		text-align: center;
+	}
+	.footer_description{
+		padding-bottom: 0px;
+	}
+	.footer_description .text_16{
+		padding-bottom: 20px;
+	}
+	.footer_copy_right{
+		text-align: center;
+		padding: 18px 0px;
+		margin-bottom: 6px;
+	}
+
+
+
+
+	/******************************** Pre-lander Page css  ********************************/
+	.build_area .section_title{
+		padding-top: 60px;
+		padding-bottom: 36px;
+	}
+	.single_check_like {
+		max-width: inherit;
+	}
+	.symptoms_content {
+		flex-direction: column;
+	}
+	.symptoms_right ul {
+		padding-top: 24px;
+		gap: 16px;
+	}
+	.symptoms_right .text_16{
+		display: block;
+	  }
+
+	  .tinnitus_card_content_desktop{
+		display: none;
+	  }
+
+
+	/******************************** Cart Page css  ********************************/
+	.Finish_oder_section .section_title {
+		padding: 18px 0px 660px 0px;
+	}
+	.Discount_content .text_24 {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.payment_card_form{
+		display: none;
+	}
+	.mobile_payment_card{
+		display: block;
+		margin-top: 38px;
+	}
+	.Finish_oder_content {
+		padding-bottom: 60px;
+	}
+	
+
+}
+@media all and (max-width:575px){
+	.header-nav nav ul li {
+		margin-bottom: 20px;
+	}
+	.header-nav nav ul li:last-child {
+		margin-bottom: 0px;
+	}
+	.heading1 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.heading4 {
+		font-size: 24px;
+	}
+	.section_title {
+		padding-top: 48px;
+		padding-bottom: 36px;
+	}
+	.pb {
+		padding-bottom: 60px;
+	}
+	.green_text {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.header-top {
+		height: 36px;
+	}
+	.header-top .text_24 {
+		display: none;
+	}
+
+	.header-main {
+		padding: 18px 0px;
+	}
+	.banner_area {
+		padding-top: 18px;
+	}
+	.banner_right_content > img {
+		max-width: 290px;
+		margin-right: 22px;
+	}
+	.banner_content {
+		gap: 30px;
+	}
+	.banner_left_content .heading1 {
+		padding-top: 6px;
+		padding-bottom: 12px;
+	}
+	.banner_left_content {
+		order: 2;
+	}
+	.single_free img {
+		width: 20px;
+		height: 20px;
+	}
+	.single_free span {
+		height: 40px;
+		width: 40px;
+	}
+	.single_free .text_20 {
+		padding-top: 3px;
+	}
+	.bottle_area {
+		padding-top: 24px;
+	}
+	.single_bottle {
+		padding: 12px 10px;
+	}
+	.left_bottle {
+		gap: 6px;
+	}
+	.left_bottle img {
+		max-width: 60px;
+	}
+	.bottle_price .text_24 {
+		padding-bottom: 4px;
+	}
+	.bottle_price .danger_text {
+		font-size: 13px;
+		line-height: 13px;
+	}
+	.bottle_price .blue_text{
+		font-size: 13px;
+		line-height: 13px;
+	}
+	.right_bottle .text_18 {
+		font-size: 14px;
+		line-height: 14px;
+		margin-top: 10px;
+	}
+	.savingBtn {
+		font-size: 14px;
+		line-height: 14px;
+		padding: 6px 12px;
+	}
+	.bottle_area {
+		padding-bottom: 24px;
+	}
+	.customer_profile > img {
+		height: 72px;
+	}
+	.customer_title .heading4 {
+		padding-bottom: 2px;
+	}
+	.customer_brack_content {
+		padding-top: 20px;
+	}
+	.single_tinnitus_free a {
+		height: 90px;
+		width: 90px;
+	}
+	.tinnitus_free_content.owl-carousel .owl-item img {
+		width: 45px;
+	}
+	.single_tinnitus_free a img {
+		height: 45px;
+	}
+	.single_tinnitus_free .text_24 {
+		padding-top: 12px;
+	}
+	.single_avoid .text_24 {
+		padding-top: 18px;
+	}
+	.single_just .heading3 {
+		padding-top: 12px;
+	}
+	.connmon_tab_right .text_18 {
+		padding-bottom: 18px;
+	}
+	.scientific_left .heading2 {
+		padding: 12px 0px 12px 0px;
+	}
+	.scientific_left .text_18 {
+		padding-bottom: 18px;
+	}
+	.scientific_left .custom_btn {
+		margin-top: 18px;
+	}
+	.scientific_content {
+		gap: 24px 40px;
+	}
+	.scientific_left {
+		order: 2;
+	}
+	.FAQS_content .accordion-button {
+		padding: 18px;
+		font-size: 16px;
+	}
+	.FAQS_content .accordion-body {
+		padding: 0px 18px 18px 18px;
+	}
+	.FAQS_content .accordion-item {
+		margin-bottom: 12px;
+	}
+	.Purchase_card {
+		padding: 30px;
+	}
+	.Purchase_card .heading3 {
+		padding-bottom: 30px;
+	}
+	.Purchase_card img {
+		margin-bottom: 30px;
+	}
+	.Purchase_card img {
+		margin-bottom: 6px;
+	}
+
+	.desktop_tab_content{
+		display: none;
+	}
+	.mobile_nav_tab_content{
+		display: block;
+	}
+
+	.ingredients_area .section_title{
+		padding-bottom: 0px;
+	}
+	/******************************** Pre-lander Page css  ********************************/
+	.build_area .section_title {
+		padding-top: 48px;
+	}
+	.action_plan_content {
+		padding: 24px;
+	}
+	.Scientific_content {
+		padding-bottom: 39px;
+	}
+	.Guarantee_area .heading2 {
+		line-height: 45px;
+	}
+}
+
+
+@media all and (max-width:450px){
+	.single_free .text_20 {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.banner_right_content > img {
+		max-width: 260px;
+		margin-right: 6px;
+	}
+	.free_icon_main {
+		gap: 12px;
+	}
+	.single_free span {
+		height: 30px;
+		width: 30px;
+	}
+	.custom_btn {
+		display: block;
+	}
+
+
+
+	.tab_order .custom_btn{
+		display: inline-flex;
+	}
+
+
+	.footer_copy_right2 {
+		text-align: center;
+	}
+	.discount_bottom_title .text_24{
+		font-size: 14px;
+	}
+	.confirmation_title {
+		padding: 30px 10px;
+	}
+	.discount_title {
+		padding: 24px 10px;
+	}
+	.discount_bottle img {
+		margin-top: 24px;
+	}
+	.discount_price .heading2 {
+		line-height: 5px;
+	}
+	.discount_price .per_bottle {
+		font-size: 18px;
+		line-height: 50px;
+	}
+	.discount_pack .green_text {
+		font-size: 18px;
+		padding: 8px 0px 24px 0px;
+	}
+	.payment_card_form form .form-check-input {
+		width: 20px;
+		height: 20px;
+		margin-bottom: -3px;
+		margin-right: 3px;
+	}
+	.Guarantee_area .heading2 {
+		line-height: 38px;
+	}
+}
+
+
+@media all and (max-width:375px){
+
+}

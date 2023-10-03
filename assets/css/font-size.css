@@ -1,0 +1,71 @@
+.heading1{
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px; 
+  }
+  .heading2{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .heading3{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+  }
+  .heading4{
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+  }
+  .text_24{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .text_20{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .text_18{
+    color: #61677A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .text_18_black{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .text_16{
+    color: #61677A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+  }
+  .green_text{
+    color: #5D9C59;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
